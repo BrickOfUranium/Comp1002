@@ -1,0 +1,33 @@
+/* ===== Browser Default Overrides ===== */
+
+/* ===== Font Importing ===== */
+@font-face {
+  font-family: 'Smokum';
+  src: url("../fonts/Smokum/Smokum-Regular.ttf");
+  font-family: 'Monoton';
+  src: url("../fonts/Monoton/Monoton-Regular.ttf");
+  font-family: 'Vast Shadow';
+  src: url("../fonts/Vast Shadow/VastShadow-Regular.ttf");
+}
+
+/* ===== Header ===== */
+header{
+  height: 56px;
+  background-color: #a89c57;
+  display: flex;
+  align-items: center;
+}
+/* ===== Song Title ===== */
+h1{
+    font-family: 'Monoton', sans-serif;
+}
+/* ===== Verse/Chorus Headers ===== */
+h2{
+    font-family: 'Monoton', sans-serif;
+}
+h3{
+    font-family: 'Smokum', sans-serif;
+}
+p{
+    font-family: 'Vast Shadow', sans-serif;
+}
