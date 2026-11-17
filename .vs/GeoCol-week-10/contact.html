@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+  <!-- Metadata will be called with a template. As seen. -->
+   <link rel="stylesheet" href="./css/styles.css">
+   <!--defer = wait until the whole page is rendered before running the script-->
+   <!--Order matters: the comonents must be culled before the main.js-->
+    <script src="./js/components.js" defer></script>
+    <script src="./js/main.js" defer></script>
 </head>
 
 <body data-page="contact">
