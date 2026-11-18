@@ -1,5 +1,18 @@
+/* ===== Browser Default Overrides ===== */
+
+
 /* ==== Font Importing ==== */
 @font-face {
-    font-family: '';
-    src: url("../css/style.css");
+    font-family: 'BladerunnerTitle';
+    src: url("./font/BladerunnerTitleFont/BLADRMF_.TTF");
+    font-family: 'Montserrat';
+    src: url("../font/Montserrat-Regular.ttf");
+}
+
+/* ===== Title Adjustment ===== */
+.MontTitle{
+    font-family: 'Montserrat', sans-serif;
+}
+.BDRTitle{
+    font-family: 'BladerunnerTitle', sans-serif;
 }
